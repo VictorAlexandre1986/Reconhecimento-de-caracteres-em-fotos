@@ -5,6 +5,7 @@ import os
 #Não é necessário usar essa biblioteca
 img = Image.open('imagem2.jpg')
 
+#É necessário instalar o executavel tesseract, e importar o arquivo exe na onde foi instalado
 # pytesseract.tesseract_cmd=r'C:\tesseract\tesseract.exe'
 pytesseract.tesseract_cmd = os.path.join("C:\\tesseract","tesseract.exe")
 
